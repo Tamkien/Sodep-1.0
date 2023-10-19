@@ -4,7 +4,6 @@ import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.size
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
@@ -22,7 +21,7 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 @Composable
 fun HomeScreen(
     modifier : Modifier = Modifier,
-    viewModel: HomeViewModel = viewModel()
+    viewModel: ViewModel = viewModel()
 ) {
     Column(
         //modifier to make the column center of the screen
@@ -33,7 +32,7 @@ fun HomeScreen(
         Button(
             onClick = {
                       //open ResultScreen
-                        viewModel.openResultScreen()
+//                        viewModel.openResultScreen()
             },
             contentPadding = ButtonDefaults.ButtonWithIconContentPadding,
         ) {
