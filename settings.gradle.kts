@@ -15,4 +15,7 @@ dependencyResolutionManagement {
 
 rootProject.name = "Sodep"
 include(":app")
- 
+include(":core:designsystem")
+include(":core:data")
+include(":feature")
+include(":feature:home")

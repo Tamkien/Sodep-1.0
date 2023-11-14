@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Sodep</string>
     <string name="shake_device">Lắc thiết bị để gieo quẻ</string>
+    <string name="home">Trang chủ</string>
 </resources>
